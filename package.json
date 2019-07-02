@@ -1,0 +1,41 @@
+{
+  "name": "react-express-mongoose-project2",
+  "version": "0.0.1",
+  "scripts": {
+    "start:nodemon": "nodemon server.js",
+    "test:jest": "jest",
+    "test:jest:watch": "jest --watch",
+    "start:react": "react-scripts start",
+    "build:react": "react-scripts build",
+    "test:react": "react-scripts test",
+    "eject:react": "react-scripts eject"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.5.14",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.0.1",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "preset": "@shelf/jest-mongodb"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
